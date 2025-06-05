@@ -1,8 +1,5 @@
 Hola Jesus
 Naci el 24 de marzo del 2004
 Naci en Acapulco
-<<<<<<< HEAD
 Me gusta la musica
-=======
-DETESTO MUCHO LA MUSICA.
->>>>>>> error
+NuevoError
