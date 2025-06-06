@@ -5,5 +5,8 @@ public class Equiponice {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+
+        System.out.println("Todo va de maravilla!");
+
     }
 }
