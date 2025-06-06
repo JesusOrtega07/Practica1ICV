@@ -12,13 +12,11 @@ inicio:
     lea dx, msg  
     int 21h   
 
-
     ; Leer el numero ingresado por el usuario
     mov ah, 01h   
     int 21h      
     sub al, 30h  
     mov bl, al   
-
 
     ; Leer el numero ingresado por el usuario
     mov ah, 01h  
@@ -31,6 +29,12 @@ inicio:
     add bl, 30h  
     mov dl, bl   
     int 21h      
+	
+    ; Preguntar al usuario si desea terminar el programa
+    mov ah, 09h  
+    lea dx, msg_fin  
+    int 21h      
+
 
 
 
