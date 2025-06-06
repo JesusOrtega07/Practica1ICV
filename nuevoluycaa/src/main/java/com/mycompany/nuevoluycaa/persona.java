@@ -53,7 +53,7 @@ public class persona {
     }
     
     public void mostrarDatos() {
-        System.out.println("Mi nombre es " + nombre +""  + apellidoPA+ ""   + apellidoMA+"y tengo"+edad+"años");
+        System.out.println("Mi nombre es " + nombre +" " + apellidoPA+ " "   + apellidoMA+""+ "y tengo "+edad+" años");
     }
     
     
