@@ -43,6 +43,13 @@ inicio:
     cmp al, 'N'  
     je salir     
 
+     ; Si el usuario no ingresó 'n' o 'N', repetir el proceso
+    jmp inicio
+
+salir:
+    ; Finaliza el programa
+    mov ah, 4Ch  
+    int 21h     
 
 
 
