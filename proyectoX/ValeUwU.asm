@@ -20,9 +20,6 @@ inicio:
     mov bl, al   
 
 
-
-
-
  ; Leer el número ingresado por el usuario
     mov ah, 01h  ; 
     int 21h      ; 
