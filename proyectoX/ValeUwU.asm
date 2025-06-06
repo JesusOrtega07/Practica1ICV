@@ -13,12 +13,7 @@ inicio:
     int 21h      
     sub al, 30h  
     mov bl, al   
-
-    ; Leer el numero ingresado por el usuario
-    mov ah, 01h  
-    int 21h       
-    sub al, 30h   
-    mov bl, al   
+  
 
     ; Imprimir el numero ingresado
     mov ah, 02h  
