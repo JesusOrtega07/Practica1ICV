@@ -19,10 +19,6 @@ inicio:
     sub al, 30h  
     mov bl, al   
 
-
-
-
-
 ret
 
 
