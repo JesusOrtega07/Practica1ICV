@@ -35,6 +35,13 @@ inicio:
     lea dx, msg_fin  
     int 21h      
 
+    ; Leer la respuesta del usuario
+    mov ah, 01h 
+    int 21h      
+    cmp al, 'n'  
+    je salir     
+    cmp al, 'N'  
+    je salir     
 
 
 
