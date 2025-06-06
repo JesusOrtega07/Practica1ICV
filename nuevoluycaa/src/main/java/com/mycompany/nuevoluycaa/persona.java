@@ -12,6 +12,14 @@ public class persona {
     String nombre,apellidoPA,apellidoMA;
     int edad ;
 
+    public persona(String nombre, String apellidoPA, String apellidoMA, int edad) {
+        this.nombre = nombre;
+        this.apellidoPA = apellidoPA;
+        this.apellidoMA = apellidoMA;
+        this.edad = edad;
+    }
+     
+
     public String getNombre() {
         return nombre;
     }

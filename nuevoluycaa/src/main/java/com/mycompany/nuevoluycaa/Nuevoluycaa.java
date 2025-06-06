@@ -10,6 +10,12 @@ package com.mycompany.nuevoluycaa;
  */
 public class Nuevoluycaa extends persona{
 
+    public Nuevoluycaa(String nombre, String apellidoPA, String apellidoMA, int edad) {
+        super(nombre, apellidoPA, apellidoMA, edad);
+    }
+    
+    
+
     public static void main(String[] args) {
         System.out.println("B I E N V E N I D O S ");
         persona persona1 = new persona("Ricardo", "Gordillo","Ibarra", 19);
