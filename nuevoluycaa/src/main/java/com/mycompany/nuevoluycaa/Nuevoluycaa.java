@@ -14,6 +14,6 @@ public class Nuevoluycaa extends persona{
         System.out.println("B I E N V E N I D O S ");
         persona persona1 = new persona("Ricardo", "Gordillo","Ibarra", 19);
         persona1.mostrarDatos();
-        
+ 
     }
 }
