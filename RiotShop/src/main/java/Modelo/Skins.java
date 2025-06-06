@@ -8,8 +8,6 @@ package Modelo;
  *
  * @author AsHunter
  */
-public class Kayn {
-    private String name;
-    private String SkinName;
-    private String Skills;
+public class Skins {
+    
 }
