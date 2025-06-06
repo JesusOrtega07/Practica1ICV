@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ; You may customize this and other start-up templates; 
 ; The location of this template is c:\emu8086\inc\0_com_template.txt
@@ -14,3 +15,18 @@ ret
 
 
 
+=======
+
+; You may customize this and other start-up templates; 
+; The location of this template is c:\emu8086\inc\0_com_template.txt
+
+org 100h
+
+
+
+ret
+
+
+
+
+>>>>>>> 8845e7c (Primer de Nuevo)
