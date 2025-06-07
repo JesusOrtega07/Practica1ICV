@@ -1,9 +1,10 @@
-#include <stdio.h> 
-int main ()
+#include <stdio.h>
+int main()
 {
-	
-	printf("hello world");
-	
-	
-	return 0;
+    int numero;
+    printf("hello world");
+    printf("Ingresa un numero: ");
+    scanf("%d", &numero);
+
+    return 0;
 }
